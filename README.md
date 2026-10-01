@@ -2,7 +2,7 @@
 
 A responsive personal portfolio website built with **React and Vite**, showcasing my skills, projects, education, training, and experience as a **Frontend Developer and Python Full Stack Developer**.
 
-🌐 **Portfolio:** https://thirunavukkarasu-m.github.io/My-Portfolio/
+🌐 **Portfolio:** https://thirunavukkarsu-m.netlify.app/
 
 ## ✨ Features
 
@@ -234,4 +234,4 @@ Frontend Developer | Python Full Stack Developer
 * 🚀 Open to Software Development Opportunities
 
 **Portfolio:**
-https://thirunavukkarasu-m.github.io/My-Portfolio/
+https://thirunavukkarsu-m.netlify.app/

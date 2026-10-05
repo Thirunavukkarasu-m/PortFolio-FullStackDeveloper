@@ -51,79 +51,8 @@ export const projects = [
     /* Replace with actual GitHub URL */ liveDemo:
       "https://exam-scheduler-weld.vercel.app/" /* Replace with actual live demo URL */,
   },
-  {
-  id: 2,
-  title: "DevNova – Full-Stack Technology Blogging Platform",
-  categories: ["fullstack", "react", "python"],
-  label: "Full Stack / React / FastAPI",
-  featured: true,
-
-  description:
-    "A full-stack technology blogging platform that enables users to create, manage and discover technical content with authentication, social interactions, notifications and admin features.",
-
-  technologies: [
-    "React.js",
-    "FastAPI",
-    "Python",
-    "PostgreSQL",
-    "SQLAlchemy",
-    "JWT",
-    "OAuth 2.0",
-    "REST APIs",
-    "Axios",
-    "Bootstrap",
-    "Cloudinary",
-  ],
-
-  features: [
-    "User registration and authentication",
-    "JWT-based authentication",
-    "Google OAuth login",
-    "GitHub OAuth login",
-    "Blog creation and management",
-    "Blog CRUD operations",
-    "Comments and replies",
-    "Like and bookmark system",
-    "User follow system",
-    "Real-time notifications",
-    "Blog search",
-    "Category-based content",
-    "Role-based admin access",
-    "Admin analytics dashboard",
-    "Cloudinary image uploads",
-    "Responsive React interface",
-  ],
-
-  flow: [
-    "React.js Frontend",
-    "Axios API Requests",
-    "FastAPI REST APIs",
-    "JWT / OAuth Authentication",
-    "SQLAlchemy ORM",
-    "PostgreSQL Database",
-    "Cloudinary Storage",
-  ],
-
-  problem:
-    "Technology bloggers need a centralized platform to publish technical articles, interact with other users and manage their content securely.",
-
-  solution:
-    "A full-stack blogging platform that provides secure authentication, blog management, social interactions, content discovery and administrative controls through a React frontend and FastAPI backend.",
-
-  approach:
-    "Built a REST API backend using FastAPI and SQLAlchemy, connected it with a React.js frontend using Axios, implemented JWT and OAuth 2.0 authentication, stored application data in PostgreSQL and handled blog images using Cloudinary.",
-
-  challenges:
-    "Designing secure authentication flows, managing relationships between users, blogs, comments, likes, bookmarks and follows, while keeping frontend and backend API interactions consistent.",
-
-  result:
-    "A complete full-stack blogging platform with secure authentication, content management, social engagement features, search, notifications, admin analytics and cloud-based image management.",
-
-  github: "https://github.com/Thirunavukkarasu-m/devnova-full-stack-blog", // Replace with actual GitHub URL
-  liveDemo: "https://github.com/Thirunavukkarasu-m/devnova-full-stack-blog", // Replace with actual Live Demo URL
-},
-  {
-    id: 3,
+{
+    id: 2,
     title: "CineBook — Movie Ticket Booking Platform",
     categories: ["fullstack"],
     label: "Full Stack",
@@ -171,7 +100,7 @@ export const projects = [
       "https://cine-book-4c52.onrender.com/" /* Replace with actual live demo URL */,
   },
   {
-    id: 4,
+    id: 3,
     title: "Employee Management System",
     categories: ["frontend"],
     label: "Frontend",
@@ -212,7 +141,7 @@ export const projects = [
       "https://employee-management-system-curd.netlify.app/" /* Replace with actual live demo URL */,
   },
   {
-    id: 5,
+    id: 4,
     title: "Parking Slot Booking Finder",
     categories: ["frontend"],
     label: "Frontend",
@@ -254,7 +183,7 @@ export const projects = [
       "https://github.com/Thirunavukkarasu-m/car-slot-finder" /* Replace with actual live demo URL */,
   },
   {
-    id: 6,
+    id: 5,
     title: "Shopping Cart & Invoice Application",
     categories: ["frontend"],
     label: "Frontend",
@@ -292,7 +221,7 @@ export const projects = [
     /* Replace with actual GitHub URL */ liveDemo: "https://github.com/Thirunavukkarasu-m/Add-To-Cart",
   },
   {
-    id: 7,
+    id: 6,
     title: "Currency Converter",
     categories: ["frontend"],
     label: "Frontend / API",

@@ -1,0 +1,116 @@
+.rv {
+  opacity: 0;
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+.rv.fade-up {
+  transform: translateY(28px);
+}
+.rv.fade-left {
+  transform: translateX(28px);
+}
+.rv.fade-right {
+  transform: translateX(-28px);
+}
+.rv.scale-in {
+  transform: scale(0.94);
+}
+.rv.in {
+  opacity: 1;
+  transform: none;
+}
+.su {
+  opacity: 0;
+  animation: up 0.7s ease forwards;
+}
+.s1 {
+  animation-delay: 0.9s;
+}
+.s2 {
+  animation-delay: 1s;
+}
+.s3 {
+  animation-delay: 1.1s;
+}
+.s4 {
+  animation-delay: 1.25s;
+}
+.fbadge {
+  animation: bob 4s ease-in-out infinite;
+}
+.fb1,
+.fb3,
+.fb5,
+.fb7 {
+  animation-delay: -2s;
+}
+.scroll-ind span {
+  animation: dot 1.6s ease-in-out infinite;
+}
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes dot {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .rv,
+  .su {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+  .fbadge,
+  .track,
+  .arrow,
+  .scroll-ind span,
+  .modal-back {
+    animation: none !important;
+  }
+  .btn-accent:hover,
+  .btn-ghost:hover,
+  .card-x:hover {
+    transform: none;
+  }
+}
